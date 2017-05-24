@@ -6,6 +6,8 @@
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
 		<script type="text/javascript" src="Preloader.js"></script>
+		<script type="text/javascript" src="sweetalert.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="sweetalert.css">
 	</head>
 	<body>
 		<div id="preloader">
@@ -14,30 +16,32 @@
 			</div>
 		</div>
 			<p id="header">FOSS-HUTECH 2017</p>
+
 			<form>
 				  <h1 style="text-align: center;">Đăng Kí Thành Viên </h1>
 				  <div class="question">
-				    <input type="text" required/>
+				    <input type="text" id="user_id" required/>
 				    <label>Tên Đăng Nhập</label>
 				  </div>
 				  <div class="question">
-				    <input type="text" required/>
+				    <input type="password" id="user_password" required/>
 				    <label>Mật Khẩu</label>
 				  </div>
 				  <div class="question">
-				    <input type="text" required/>
+				    <input type="password" id="user_password_again" required/>
 				    <label>Nhập Lại Mật Khẩu</label>
 				  </div>
 				  <div class="question">
-				    <input type="text" required/>
+				    <input type="text" id="user_name" required/>
 				    <label>Họ Và Tên</label>
 				  </div>
 				    <div class="question">
-				    <input type="text" required/>
+				    <input type="text" id="user_address" required/>
 				    <label>Địa Chỉ</label>
 				  </div>
 				  
-				  <button>Submit</button>
+				  <input type="button" value="Submit" id="button">
+				
 			</form>
 	</body>
 </html>
