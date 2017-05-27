@@ -33,7 +33,7 @@ $(document).ready(function(){
 				});
 			}else{
 				swal({
-				title : "Đăng Nhập Thành Công",
+				title : "Đăng Ký Thành Công",
 				text : "Xin Chào ,"+get_user ,
 				type : "success",
 				animation :"slide-from-top"
